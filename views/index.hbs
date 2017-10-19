@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <h1>
+    {{name}}
+    {{foo}}
+  </h1>
+  <ul>
+    {{#each foods}}
+      <li>{{this}}</li>
+    {{/each}}
+
+    {{#if drink}}
+      <li> Favorite drink: {{drink}} </li>
+    {{else}}
+      <li> No favorite drinks. </li>
+    {{/if}}
+  </ul>
+  <a href="/about">about</a>
+</body>
+</html>

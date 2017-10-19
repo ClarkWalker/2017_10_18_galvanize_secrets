@@ -1,0 +1,27 @@
+{
+  "name": "2017_10_18_galvanize_secrets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClarkWalker/2017_10_18_galvanize_secrets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClarkWalker/2017_10_18_galvanize_secrets/issues"
+  },
+  "homepage": "https://github.com/ClarkWalker/2017_10_18_galvanize_secrets#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "knex": "^0.13.0",
+    "nodemon": "^1.12.1",
+    "pg": "^7.3.0"
+  }
+}
